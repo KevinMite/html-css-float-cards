@@ -1,15 +1,18 @@
+/* reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* contenitore */
 .container{
     width: 80%;
     margin: 0 auto;
     
 }
 
+/* caratteristiche titolo */
 h1{
     text-align: center;
     color: red;
@@ -18,8 +21,62 @@ h1{
     padding-bottom: 3%;
 }
 
+/* caratteristiche paragrafi */
 #text{
     text-align: center;
     padding-top: 1%;
     padding-bottom: 4%;
+}
+
+.container1{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.5em;
+    width: 250px;
+    float:left;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 10px 18px black ;
+    
+}
+.container2{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.5em;
+    width: 250px;
+    float:left;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    margin-left: 7%;
+    box-shadow: 5px 10px 18px black ;
+}
+
+.container3{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.5em;
+    width: 250px;
+    float:left;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    float: right;
+    box-shadow: 5px 10px 18px black ;
+}
+img{
+    width: 22%;
+  float: left;
+  margin-right:  0.5rem;
+}
+
+.clearfix:after{
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.email{
+    color: rgb(31, 169, 223);
 }
