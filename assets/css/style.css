@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-family: 'Fredoka One', cursive;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#text{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
